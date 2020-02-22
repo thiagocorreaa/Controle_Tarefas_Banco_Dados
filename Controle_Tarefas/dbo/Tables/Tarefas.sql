@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Tarefas] (
-    [Id_Tarefa]      INT           NOT NULL,
+    [Id_Tarefa]      INT      IDENTITY(1,1)     NOT NULL,
     [Titulo]         VARCHAR (150) NOT NULL,
     [Status]         BIT           NOT NULL,
     [Descricao]      VARCHAR (500) NULL,
